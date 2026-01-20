@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(135deg, #b0dddd, #889fc4);
+    padding-top: 72px;
+}
+
+.card{
+    background-color: #4e77b9;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+#titulo{
+    display: none;
+    position: relative;
+}
+
+th {
+    background-color: #4e77b9 !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1, h2 {
+    color: #004aad;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black; 
+}
+
+button{
+    background-color: #4e77b9;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #004aad;
+}
+
+footer p {
+    color: white;
+}
+
+footer button{
+    float: right;
+    background-color: #4e77b9;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    
+}
+
+/* NAVBAR custom */
+.navbar-brand img {
+    height: 44px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 12px;
+}
+
+.navbar {
+    background-color: #004aad ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section{
+    padding-top: 72px;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 28px 0;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px){
+    header { padding: 18px 0; margin-bottom: 16px; }
+    body { padding-top: 64px; }
+}
+
+#btnTopo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#btnTopo:hover {
+    background-color: #4e77b9;
+}

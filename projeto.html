@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagina pessoal de Jailson Varela - Exercicio de HTML">
+        <meta name="author" content="Jailson">  
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet">
+        
+        <title> Sobre mim - Jailson Varela</title>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#sobre">
+                    <img src="imagens/perfil_avatar.png" alt="Foto Perfil Avatar" />
+                    <span class="fw-bold">LVJ</span>
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#caroussel">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#series">Series</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#glossario">Glossário</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#manuais">Manuais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sessoes">Sessões</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formulario">Sessão Aberta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#multimedia">Multimédia</a></li>
+                    </ul>
+        
+                </div>
+            </div>
+        </nav>
+                
+        <header id="header" class="container">
+
+            <h1 id="saudacaoTurma"> Hello Turma 2! </h1>
+            <h1 id="titulo"> Bem vindo a minha Página HTML </h1>
+            <button id="animar" class="btn btn-primary">Animar Título</button>
+
+            <p id="mensagemBoasVindas" class="text-secondary text-center"></p>
+        
+        </header>
+        
+        <main class="container">
+
+            <section id="caroussel">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="imagens/Objetos_desportivos_diversos-ChatGPT Image 17_01_2026, 22_27_25.png" alt="Objetos desportivos diversos" class="d-block" style="width:70%; margin-left: 15%;">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="imagens/Workspace_de_Inovacao-Gemini_Generated_Image_ptqcbkptqcbkptqc.png" alt="Workspace de Inovação" class="d-block" style="width:90%; margin-left: 5%;">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="imagens/Familia_multicultural_em_estilo_avatar-ChatGPT Image 17_01_2026, 22_37_14-Gemini_Generated_Image_ssxhrqssxhrqssxh.png" alt="Família multicultural em estilo avatar" class="d-block" style="width:60%; margin-left: 20%;">
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </section>
+            
+            <section id="sobre" class="mb-5" style="display: flex; gap: 20px;">
+                
+                <div class="card p-4">
+                    <p class="text-center text-secondary" style="color: white !important;"> 
+                        Olá!</br> Sou Jailson, recém-Licenciado em Engenharia Informática 
+                        com uma base sólida em programação e um interesse particular 
+                        na aplicação da tecnologia para resolver desafios de negócio e
+                        aplicar com entusiasmo todo o aprendizado em desenvolvimento web
+                        nesta página feita com <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b>. </br>
+                        Vamos lá aprender mais sobre <i>programação web</i>!
+                    </p>
+                </div>
+
+            </section>
+        
+            <section id="info_pessoal" class="mb-5">
+                <section id="hobbies">
+
+                    <h2>Os meus hobbies</h2>
+                    <ul class="list-group list-group-flush mt-3">
+                        <li class="list-group-item">Fazer desportos</li>
+                        <li class="list-group-item">Ler livros</li>
+                        <li class="list-group-item">Praticar programação</li>
+                        <li class="list-group-item">Assistir séries</li>
+                    </ul>
+                
+                </section>
+                    
+                <section id="series">
+
+                    <h2 class="text-center mb-4 mt-3">As minhas 3 séries favoritas</h2>
+                    <div class="text-center g-4 row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="imagens/Rabo de Peixe-02039.jpg" alt="Capa do Rabo de Peixe" width="200" class="card-img-top">
+                                <div class="card-body">
+                                <h5 class="card-title">Rabo de Peixe</h5>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="imagens/La Casa de Papel-3211382.jpg" alt="Capa de La Casa de Papel" width="200" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">La Casa de Papel</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="imagens/Lupin-5638846.jpg" alt="Capa do Lupin" width="200" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lupin</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      
+                </section>
+            </section>
+            
+            <div class="row">
+                <div class="col-md-6">
+
+                    <section id="glossario" class="mb-5">
+                        
+                        <h2 >Glossário</h2>
+                        <dl class="row mt-3">
+                            <dt class="col-sm-3">HTML</dt>
+                            <dd class="col-sm-9">Linguagem de modelação usada para estruturar páginas web.</dd>
+                            <dt class="col-sm-3">CSS</dt>
+                            <dd class="col-sm-9">Folhas de estilo usadas para dar aparência à página.</dd>
+                            <dt class="col-sm-3">JavaScript</dt>
+                            <dd class="col-sm-9">Linguagem de programação usada para dar interatividade.</dd>
+                        </dl> 
+                        
+                    </section>
+                    
+                </div>
+
+                <div class="col-md-6">
+                    
+                    <section id="manuais" class="mb-5">
+                        
+                        <h2 style="visibility: hidden; display: none;">Manuais</h2>
+                        <p>
+                            Visite também a <a href="https://www.wikipedia.org/" target="_blank"> Wikipédia</a>,
+                            <a href="https://www.w3schools.com/" target="_blank"> W3Schools</a>
+                            e <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"> Bootstrap</a>
+                            para obter mais informações.
+                        </p>
+                        
+                    </section>
+                </div>
+            </div>
+                    
+            <section id="sessoes" class="mb-5">
+
+                <h2>Sessões de formação</h2>
+                <div class="table-responsive mt-3">
+
+                    <table class="table table-bordered table-striped align-middle mb-4">
+                        <thead>
+                            <tr>
+                                <th>Counteúdos</th>
+                                <th>Data</th>
+                                <th>Sessão</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Fundamentos da web e HTML</td>
+                                <td>06/12/2025</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Introdução ao CSS</td>
+                                <td>13/12/2025</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Bootstap</td>
+                                <td>20/12/2025</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Bootstap Conclusão</td>
+                                <td>27/12/2025</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Introdução ao Javascript</td>
+                                <td>03/01/2026</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Introdução ao jQuery, Formato de dados json e término dos projetos</td>
+                                <td>10/01/2026</td>
+                            </tr>
+                        </tbody> 
+                    </table>
+                    
+                </div>
+            </section>
+            
+            <section id="formulario" class="mb-5">
+                
+                <h2>Sessão aberta</h2>
+                <form id="formContacto" class="mt-3 p-4 bg-light rounded shadow-sm w-75 mx-auto" action="/action_page.php">
+        
+                    <div class="mb-3">
+                        <label for="nome">Nome: </label>
+                        <input class="form-control" type="text" name="primeiro nome" id="nome" value="Anónimo">
+                    </div>
+                        
+                    <div class="mb-3">
+                        <label for="apelido">Apelido: </label>
+                        <input class="form-control" type="text" name="último apelido" id="apelido" value="Anónimo">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="genero" class="form-label">Género:</label>
+        
+                        <select class="form-select" id="genero">
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                        </select>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="mensagem" >Mensagem</label></br>
+                        <textarea class="form-control" type="text" name="mensagem" id="mensagemDescForm" 
+                        placeholder="Escreve uma mensagem breve..." size="40" ></textarea>
+                    </div>
+
+                    <fieldset class="mb-3">
+                        <legend>Interesses:</legend>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="html">
+                            <label class="form-check-label" for="html">HTML</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="css">
+                            <label class="form-check-label" for="css">CSS</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="js">
+                            <label class="form-check-label" for="js">JavaScript</label>
+                        </div>
+                        
+                    </fieldset>
+                    
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary me-2">Enviar</button>
+                            <button type="reset" class="btn btn-secondary">Limpar</button>
+                        </div>            
+                </form>
+
+                <div id="mensagemForm" class="alert mt-3" style="display: none;"></div>
+                
+            </section>
+
+            <section id="multimedia" class="text-center mb-5">
+
+                <h2> As multimédias</h2>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h3>Audio de parabenização.</h3>
+                        <audio controls class="mt-3">
+                            <source src="multimedia/aplauso.mp3" type="audio/mpeg">
+                            O seu navegador não suporta audio.
+                        </audio>
+                    </div>
+                    
+                    <div class="col-md-6">    
+                        <h3>Video de demostração</h3>
+                        <video controls width="320" class="mt-3 rounded shadow-sm">
+                            <source src="multimedia/video.mp4" type="video/mp4">
+                            O seu navegador não supoprta vídeo.
+                        </video>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="javascript" class="mb-5">
+                <h2 class="text-center mb-4">Sessão 4 – Introdução ao JavaScript</h2>
+                <div class="card p-4 shadow-sm">
+                    <p class="mb-4">
+                        O <strong>JavaScript</strong> é a linguagem de programação que dá <em>interatividade</em> às páginas web.
+                        Com ele, podemos alterar conteúdos, reagir a eventos e tornar a navegação mais dinâmica.
+                    </p>
+                    <div class="text-center mt-3">
+                        <button id="btnSaudacao" class="btn btn-primary">
+                            Clica para interagir!
+                        </button>
+                    </div>
+
+                    <div class="text-center mt-3">
+                        <button id="btnTema" class="btn btn-dark">
+                            Mudar tema
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="dadosGuardados" class="mb-5">
+                <h2 class="text-center mb-3">Dados guardados</h2>
+
+                <div class="card p-4 shadow-sm text-center">
+                    <p class="text-secondary left">Nome: <span id="nomeLocal"></span></p>
+                    <p class="text-secondary">Email: <span id="emailLocal"></span></p>
+                    <p class="text-secondary">Género: <span id="generoLocal"></span></p>
+                    
+                    <div class="text-center">
+                        <button id="btnLimpar" class="btn btn-danger mt-3" style="width: 30%;">Limpar dados</button>
+                    </div>
+                
+                </div> 
+            </section>
+        </main>
+    
+        <button id="btnTopo" title="Voltar ao topo"> ↑ </button>
+        
+        <footer >
+
+            <div class="row container">
+                <div class="col-md-6">
+
+                    <img style="float: right; border-radius: 10%;" src="imagens/logo.png" alt="logoEISnt" width="100px">
+                    <p style="float: left;">© 2025 - Projeto UFCD 0792 - Jailson Varela</p>
+                
+                </div>
+                <div class="col-md-6">
+                    <div style="float:right;">
+                        <p id="horaAtual" style="margin-bottom: 5px;" ></p>
+                        <p id="temperaturaAtual"></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="scripts/script.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
