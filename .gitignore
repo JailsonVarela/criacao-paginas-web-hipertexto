@@ -1,0 +1,24 @@
+# Visual Studio Code
+.vscode/
+
+# Dependências (caso use npm)
+node_modules/
+
+# Build / temporários
+dist/
+build/
+.cache/
+.tmp/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Logs
+*.log
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+NTUSER.*
